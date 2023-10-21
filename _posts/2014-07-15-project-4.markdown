@@ -2,7 +2,20 @@
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: game.png
+img: ex4.png
+
+youtube_id: 1PQtHYMfu-o
+width: 560
+height: 315
+youtube_url: "https://www.youtube.com/embed/1PQtHYMfu-o?si=YzTLMneO6_2KJjs3"
+title: "YouTube video player"
+frameborder: "0"
+allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+
+start1: 1
+end1: 5 
+explanation1: "You expect the bee to sting the man. It gives the man a high five instead and then puts his arm back."
+
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

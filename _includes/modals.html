@@ -11,31 +11,30 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
+        <div class="col-lg-6 col-lg-offset-3">
           <div class="modal-body">
-            <h2>{{ post.title }}</h2>
+            <h2>Example {{ post.modal-id }}</h2>
             <hr class="star-primary">
-            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-            {% if post.description %}
-            <p>{{ post.description }}</p>
-            {% endif %}
-            <ul class="list-inline item-details">
-              {% if post.client %}
-              <li>Client:
-                <strong>{{ post.client }}</strong>
-              </li>
+            <!--<img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">-->
+            <iframe style="margin: -20px 0 20px 0" width="{{ post.width }}" height="{{ post.height }}" src="{{ post.youtube_url }}" title="{{ post.youtube_url }}" frameborder="{{ post.frameborder }}" allow="{{ post.allow }}" allowfullscreen></iframe>
+            <div style="text-align: left; margin:0 45px;">
+              <p><b>Moment 1. </b></p>
+              <p>Timestamp:  {{post.start1}}s  ~ {{post.end1}}s</p>
+              <p>Explanation:  {{post.explanation1}}</p>
+
+              {% if post.start2 %} 
+                <p><b>Moment 2. </b></p>
+                <p>Timestamp:  {{post.start2}}s  ~ {{post.end2}}s</p>
+                <p>Explanation:  {{post.explanation2}}</p>
               {% endif %}
-              {% if post.project-date %}
-              <li>Date:
-                <strong>{{ post.project-date }}</strong>
-              </li>
+
+              {% if post.start3 %} 
+                <p><b>Moment 3. </b></p>
+                <p>Timestamp:  {{post.start3}}s  ~ {{post.end3}}s</p>
+                <p>Explanation:  {{post.explanation3}}</p>
               {% endif %}
-              {% if post.category %}
-              <li>Service:
-                <strong>{{ post.category }}</strong>
-              </li>
-              {% endif %}
-            </ul>
+
+            </div>
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>
           </div>

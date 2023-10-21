@@ -31,14 +31,14 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
 hr.star-light,
 hr.star-primary {
-    margin: 25px auto 30px;
+    margin: 25px auto 75px;
     padding: 0;
     max-width: 250px;
     border: 0;
@@ -68,11 +68,11 @@ hr.star-light:after {
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: #{{ site.color.primary }};
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }};
+    color: #{{ site.color.primary }};
     background-color: #fff;
 }
 
@@ -87,8 +87,7 @@ header {
 }
 
 header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 150px;
 }
 
 header img {
@@ -98,7 +97,7 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
@@ -111,12 +110,12 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
+        padding-top: 120px;
         padding-bottom: 100px;
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 3em;
     }
 
     header .intro-text .skills {
@@ -149,7 +148,7 @@ header .intro-text .skills {
 }
 
 .navbar {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -172,6 +171,7 @@ header .intro-text .skills {
 }
 
 section {
+    color: #{{ site.color.primary }};
     padding: 100px 0;
 }
 
@@ -283,8 +283,8 @@ section.success {
     margin-top: 15px;
     border: solid 2px #fff;
     font-size: 20px;
-    color: #fff;
-    background: 0 0;
+    color: #{{ site.color.primary }};
+    background: #fff;
     transition: all .3s ease-in-out;
 }
 
@@ -292,9 +292,8 @@ section.success {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
-    color: #{{ site.color.primary }};
-    background: #fff;
+    color: #fff;
+    background: #{{ site.color.secondary }};
 }
 
 .floating-label-form-group {
@@ -481,4 +480,19 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+.strong{
+    font-size: 1.5em; 
+    font-weight: 700; 
+    padding-bottom: 10px
+}
+
+.modal-body {
+    margin: -50px;
+    color: #{{site.color.primary}};
+}
+
+#yt-dlp{
+    color: #{{site.color.secondary}};
 }

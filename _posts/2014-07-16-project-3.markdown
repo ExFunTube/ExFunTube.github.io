@@ -2,7 +2,20 @@
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: circus.png
+img: ex3.png
+
+youtube_id: 0sDg2h3M1RE
+width: 560
+height: 315
+youtube_url: "https://www.youtube.com/embed/0sDg2h3M1RE?si=4QopH4SVU_H4hXeF"
+title: "YouTube video player"
+frameborder: "0"
+allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+
+start1: 5
+end1: 8
+explanation1: "What is funny is that the man in the car puts his plain white icecream cone outside his window and when he brings it back inside the car you can see that it is covered with sprinkles.  Another man had asked him if he thought is was raining today and he uses his sprinkled cone to show that it is \"sprinkling\".  Making a joke of the two meanings for the word sprinkles creates the humor and the unexpected site of the icecream cone suddenly covered with candy sprinkles."
+
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

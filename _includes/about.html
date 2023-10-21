@@ -1,26 +1,24 @@
 <!-- About Section -->
-<section class="success" id="about">
+<section id="about">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>About</h2>
-        <hr class="star-light">
+        <h2>About Dataset</h2>
+        <hr class="star-primary">
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-4 col-lg-offset-2">
-        <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete
-          source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy
-          customization.</p>
+      <div class="col-lg-4">
+        <p><span class="strong">What</span>'s the difference?</p>
+        <p>Previous humorous video datasets are collected from limited domains, such as sitcoms or speeches. In speeches, there is a single speaker so visual cues are restricted to facial expressions or gestures. On the other hand, in sitcoms, fixed characters follow a predefined script on a constructed set, where visual cues are also resricted. For this reason, we collect <b>multimodally funny short-form videos from YouTube!</b></p>
       </div>
       <div class="col-lg-4">
-        <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or
-          a graphic artist looking to share your projects, this template is the perfect starting point! </p>
+        <p><span class="strong">How</span> do we collect videos?</p>
+        <p>To verify multimodal fun, we devise a video filtering pipeline. We are inspired by other datasets that are proved as multimodal by comparing task performence between with and without visual cues. Therefore, we textualize videos, make GPT-3.5 explain why funny, and <b>compare two results with and without visual information</b>.  Then, we select videos when two results are significantly different. With our pipeline, we can gather multimodally funny videos!</p>
       </div>
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <a href="https://github.com/jeromelachaud/freelancer-theme" class="btn btn-lg btn-outline">
-          <i class="fa fa-download"></i> Download Theme
-        </a>
+      <div class="col-lg-4">
+        <p><span class="strong">Why</span> is our dataset important?</p>
+        <p>Short-form funny videos on social networks are gaining popularity. Thus, it becomes beneficial for AI models to understand them in that they can provide empathetic responses or recommend funny videos based on users’ sense of humor. Furthermore, videos in our dataset are annotated funny moments and corresponding explanations, which can be utilized to <b>help models understand humor or evaluate model’s understanding of humor in depth! </b></p>
       </div>
     </div>
   </div>

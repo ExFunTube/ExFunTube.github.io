@@ -2,7 +2,20 @@
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: cake.png
+img: ex2.png
+
+youtube_id: 6v2YjdcHl6w
+width: 560
+height: 315
+youtube_url: "https://www.youtube.com/embed/6v2YjdcHl6w?si=Ig3nRTkutnDLK3xP"
+title: "YouTube video player"
+frameborder: "0"
+allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+
+start1: 2
+end1: 6 
+explanation1: "It's funny to me because the implication is that lawnmower is sheep powered, because the sheep are pushing it, instead of horse powered. It's also weird to see sheep doing that."
+
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

@@ -3,11 +3,26 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <img class="img-responsive" src="img/profile.png" alt="profile-pic" />
         <div class="intro-text">
-          <span class="name">{{ site.title }}</span>
-          <hr class="star-light" />
-          <span class="skills">{{ site.skills }}</span>
+          <span class="name">Can Language Models Laugh at YouTube<br> Short-form Videos? [EMNLP 2023]</span>
+          <!--<hr class="star-light" />-->
+          <!--<span class="skills">{{ site.skills }}</span>-->
+          <div class="row">
+            <img style="margin: -12px auto -40px auto;" src="img/img.png" alt="profile-pic" height=500px/>
+            <div class="col-lg-6 col-lg-offset-3">
+              <p >We introuduce <span class="strong">ExFunTube</span> dataset, which consists of 10,136 funny short-form youtube videos. Videos are annotated with start and end timestamps and corresponding explanations. You can see an example of our ExFunTube dataset above, which has three funny moments!</p>
+            </div>
+          </div>
+          <div class="footer-col col-md-4 col-md-offset-4 text-center">
+            <ul style="margin: -10px;" class="list-inline">
+              {% for network in site.social %}
+              <li>
+                <a href="{{ network.url }}" class="btn-social btn-outline"><i
+                    class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
         </div>
       </div>
     </div>

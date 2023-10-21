@@ -4,17 +4,12 @@
 
 <body id="page-top" class="index">
   {% include nav.html %}
+  <!--<img style="padding-top: 150px; padding-bottom: 50px;" class="img-responsive" src="img/figures.png" alt="profile-pic" ><img/>-->
   {% include header.html %}
-  {% include portfolio_grid.html %}
   {% include about.html %}
-
-  {% if site.contact == "static" %}
-  {% include contact_static.html %}
-  {% elsif site.contact == "disqus" %}
-  {% include contact_disqus.html %}
-  {% else %}
+  {% include portfolio_grid.html %}
   {% include contact.html %}
-  {% endif %}
+  {% include download.html %}
 
   {% include footer.html %}
   {% include modals.html %}

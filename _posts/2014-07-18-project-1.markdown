@@ -2,8 +2,28 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: cabin.png
-alt: image-alt
+img: ex1.png
+
+youtube_id: b9KAWFdB2-w
+width: 560
+height: 315
+youtube_url: https://www.youtube.com/embed/b9KAWFdB2-w?si=45l6MFEE9LpMcO3h
+title: "YouTube video player"
+frameborder: "0"
+allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+
+start1: 2
+end1: 4 
+explanation1: "It's funny because the white dog is shown a dandelion then the dog eats the dandelion unexpectedly."
+
+start2: 8
+end2: 10
+explanation2: "It's funny because the black and white dog is shown a dandelion and does the same thing as the white dog and eats the dandelion."
+
+start3: 17
+end3: 20 
+explanation3: "It's funny because the dog turns and notices the dandelion and goes over and eats the dandelion from the man's hand."
+
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development

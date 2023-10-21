@@ -1,8 +1,22 @@
 ---
 layout: default
 modal-id: 5
-date: 2014-07-14
-img: safe.png
+date: 2014-07-15
+img: ex5.png
+
+youtube_id: _3Y_2GEGeWM
+width: 560
+height: 315
+youtube_url: "https://www.youtube.com/embed/_3Y_2GEGeWM?si=-sdmtaazgFhNULWF"
+title: "YouTube video player"
+frameborder: "0"
+allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+
+start1: 15
+end1: 22
+explanation1: "The goldfish is swimming around in his bowl saying, \"I want to go to the aquarium.\" It is funny because he is a goldfish and he's already in a tank full of water."
+
+
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

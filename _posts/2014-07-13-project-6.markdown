@@ -1,8 +1,25 @@
 ---
 layout: default
 modal-id: 6
-date: 2014-07-15
-img: submarine.png
+date: 2014-07-14
+img: ex6.png
+
+youtube_id: I6wA6y99hpA
+width: 560
+height: 315
+youtube_url: "https://www.youtube.com/embed/I6wA6y99hpA?si=i-yZusDuruI-2A1a"
+title: "YouTube video player"
+frameborder: "0"
+allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+
+start1: 5
+end1: 9 
+explanation1: "The video is funny because it features an animated clip featuring a man that is towing a luxury car while in the presence of its presumably wealthy owner that makes the sly comment in stating, \"I had mixed reviews on the color. Some people say they like it, some people said they don't like it. I said well, what color is your Bugatti?\" This remark is laughable because it implies that the man is rich and the person that is questioning the car color is not and is likely not in ownership of a Bugatti, so therefore, their opinion is irrelevant."
+
+start2: 12
+end2: 14
+explanation2: "The video is also funny because the wealthy man that presumably owns the luxury car is left standing and laughing at his own remark as the tow truck driver speeds off and leaves him standing in the dust. Furthermore, it is comical to see that this man is left behind, especially on account of his projected arrogance."
+
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
