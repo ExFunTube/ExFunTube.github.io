@@ -24,6 +24,7 @@ a.active {
     color: #fff;
 }
 a:hover {
+    outline: 0;
     color: #{{ site.color.secondary }};
 }
 
