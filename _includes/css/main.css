@@ -497,10 +497,10 @@ footer .footer-below {
     color: #{{site.color.secondary}};
 }
 
-header a{
+/*header a{
     color: #fff;
 }
 
 header a:hover{
     color: #{{site.color.secondary}};
-}
+}*/
