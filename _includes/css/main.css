@@ -496,3 +496,11 @@ footer .footer-below {
 #yt-dlp{
     color: #{{site.color.secondary}};
 }
+
+header a{
+    color: #fff;
+}
+
+header a:hover{
+    color: #{{site.color.secondary}};
+}
